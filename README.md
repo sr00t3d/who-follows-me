@@ -1,52 +1,59 @@
 # 🕵️‍♂️ Who Follows Me?
 
-**Who Follows Me?** é uma extensão para navegador (Manifest V3) projetada para ajudar você a gerenciar suas conexões no Instagram de forma inteligente, visual e, acima de tudo, segura.
+[English](README-ptbr.md)
 
-Diferente de outros apps que podem comprometer sua conta, esta ferramenta roda localmente no seu navegador, respeitando os limites da plataforma e mantendo seus dados privados.
+![License](https://img.shields.io/github/license/sr00t3d/who-follows-me)
+![Javascript](https://img.shields.io/badge/language-Javascript-green.svg)
 
-## ✨ Principais Funcionalidades
+<img width="700" src="who-follows-me-cover.webp" />
 
-- **Varredura Automática:** Identifica quem não te segue de volta, quem são seus seguidores mútuos, contas verificadas e perfis privados.
-- **Filtros Avançados:** Organize sua lista com apenas um clique para focar em quem realmente importa.
-- **Unfollow Seguro:** Sistema de *Safe-Mode* com ritmo adaptativo, cooldown automático e simulação para evitar bloqueios do Instagram.
-- **Exportação de Dados:** Salve seus relatórios em formatos CSV ou JSON para análise externa.
-- **Interface Moderna:** Layout compacto, suporte a microinterações, tooltips informativas e feedback visual de risco.
-- **Multi-idioma:** Suporte nativo para Português (PT) e Inglês (EN) baseado nas configurações do seu navegador.
+**Who Follows Me?** is a browser extension (Manifest V3) designed to help you manage your Instagram connections in a smart, visual, and above all, secure way.
 
-## 🛡️ Segurança em Primeiro Lugar
+Unlike other apps that may compromise your account, this tool runs locally in your browser, respecting the platform’s limits and keeping your data private.
 
-O Instagram possui políticas rígidas contra automações agressivas. O **Who Follows Me?** foi construído com camadas de proteção:
-- **Modo Simulação:** Teste as ações antes de executá-las de verdade.
-- **Proteção de Notas:** Perfis que você marcou com notas ou considerou importantes são protegidos contra unfollow acidental.
-- **Fila de Falhas:** Se algo der errado, a extensão gerencia as tentativas automaticamente sem disparar alertas nativos chatos.
+## ✨ Key Features
 
-## 🚀 Como instalar (Desenvolvedor)
+- **Automatic Scan:** Identifies who doesn’t follow you back, who your mutual followers are, verified accounts, and private profiles.
+- **Advanced Filters:** Organize your list with just one click to focus on who really matters.
+- **Safe Unfollow:** *Safe-Mode* system with adaptive pacing, automatic cooldown, and simulation to avoid Instagram blocks.
+- **Data Export:** Save your reports in CSV or JSON formats for external analysis.
+- **Modern Interface:** Compact layout, support for microinteractions, informative tooltips, and visual risk feedback.
+- **Multi-language:** Native support for Portuguese (PT) and English (EN) based on your browser settings.
 
-Como esta versão está em desenvolvimento, você pode instalá-la manualmente:
+## 🛡️ Security First
 
-1. Faça o download ou clone este repositório.
-2. Abra o seu navegador (Chrome, Edge, Brave ou Opera).
-3. Vá para a página de Extensões (`chrome://extensions/`).
-4. Ative o **"Modo do desenvolvedor"** no canto superior direito.
-5. Clique em **"Carregar sem compactação"** e selecione a pasta onde os arquivos do projeto estão localizados.
+Instagram has strict policies against aggressive automation. **Who Follows Me?** was built with protective layers:
+- **Simulation Mode:** Test actions before executing them for real.
+- **Notes Protection:** Profiles you marked with notes or considered important are protected against accidental unfollow.
+- **Failure Queue:** If something goes wrong, the extension automatically manages retries without triggering annoying native alerts.
 
-## 💡 Como usar
+## 🚀 How to install (Developer)
 
-1. Acesse o [Instagram](https://www.instagram.com) e faça login na sua conta.
-2. Clique no ícone da extensão na sua barra de ferramentas.
-3. A extensão abrirá uma interface integrada (modal) diretamente na página.
-4. Aguarde o carregamento da lista e use os filtros para analisar seus seguidores.
+Since this version is under development, you can install it manually:
 
-## 🛠️ Tecnologias Utilizadas
+1. Download or clone this repository.
+2. Open your browser (Chrome, Edge, Brave, or Opera).
+3. Go to the Extensions page (`chrome://extensions/`).
+4. Enable **"Developer mode"** in the top right corner.
+5. Click **"Load unpacked"** and select the folder where the project files are located.
+
+## 💡 How to use
+
+1. Go to [Instagram](https://www.instagram.com) and log into your account.
+2. Click the extension icon in your toolbar.
+3. The extension will open an integrated interface (modal) directly on the page.
+4. Wait for the list to load and use the filters to analyze your followers.
+
+## 🛠️ Technologies Used
 
 - **JavaScript (ES6+)**
 - **Chrome Extension API (Manifest V3)**
-- **CSS3** (Layouts dinâmicos e Blur de backdrop)
-- **SweetAlert2** (Para feedbacks visuais elegantes)
+- **CSS3** (Dynamic layouts and backdrop blur)
+- **SweetAlert2** (For elegant visual feedback)
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 ---
-*Aviso: Este projeto não é afiliado, associado, autorizado, endossado por, ou de qualquer forma oficialmente conectado ao Instagram, Facebook ou Meta Platforms, Inc.*
+*Disclaimer: This project is not affiliated with, associated with, authorized, endorsed by, or in any way officially connected to Instagram, Facebook, or Meta Platforms, Inc.*
