@@ -1,6 +1,6 @@
 # 🕵️‍♂️ Who Follows Me?
 
-[English](README-ptbr.md)
+[Português](README-ptbr.md)
 
 ![License](https://img.shields.io/github/license/sr00t3d/who-follows-me)
 ![Javascript](https://img.shields.io/badge/language-Javascript-green.svg)
