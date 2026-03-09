@@ -1,9 +1,8 @@
-# 🕵️‍♂️ Who Follows Me?
+# Who Follows Me?
 
-[English](README.md)
+Readme: [EN](README.md)
 
-![Licença](https://img.shields.io/github/license/sr00t3d/who-follows-me)
-![Javascript](https://img.shields.io/badge/language-Javascript-green.svg)
+![Licença](https://img.shields.io/github/license/sr00t3d/who-follows-me) ![Javascript](https://img.shields.io/badge/language-Javascript-green.svg)
 
 <img width="700" src="who-follows-me-cover.webp" />
 
@@ -11,7 +10,7 @@
 
 Diferente de outros apps que podem comprometer sua conta, esta ferramenta roda localmente no seu navegador, respeitando os limites da plataforma e mantendo seus dados privados.
 
-## ✨ Principais Funcionalidades
+## Principais Funcionalidades
 
 - **Varredura Automática:** Identifica quem não te segue de volta, quem são seus seguidores mútuos, contas verificadas e perfis privados.
 - **Filtros Avançados:** Organize sua lista com apenas um clique para focar em quem realmente importa.
@@ -20,14 +19,18 @@ Diferente de outros apps que podem comprometer sua conta, esta ferramenta roda l
 - **Interface Moderna:** Layout compacto, suporte a microinterações, tooltips informativas e feedback visual de risco.
 - **Multi-idioma:** Suporte nativo para Português (PT) e Inglês (EN) baseado nas configurações do seu navegador.
 
-## 🛡️ Segurança em Primeiro Lugar
+## Segurança em Primeiro Lugar
 
 O Instagram possui políticas rígidas contra automações agressivas. O **Who Follows Me?** foi construído com camadas de proteção:
 - **Modo Simulação:** Teste as ações antes de executá-las de verdade.
 - **Proteção de Notas:** Perfis que você marcou com notas ou considerou importantes são protegidos contra unfollow acidental.
 - **Fila de Falhas:** Se algo der errado, a extensão gerencia as tentativas automaticamente sem disparar alertas nativos chatos.
 
-## 🚀 Como instalar (Desenvolvedor)
+## Como instalar (Usuário)
+
+Acesse em https://chromewebstore.google.com/detail/ecfokafaabljgocaeheiejiffmdhbgll
+
+## Como instalar (Desenvolvedor)
 
 Como esta versão está em desenvolvimento, você pode instalá-la manualmente:
 
@@ -37,23 +40,23 @@ Como esta versão está em desenvolvimento, você pode instalá-la manualmente:
 4. Ative o **"Modo do desenvolvedor"** no canto superior direito.
 5. Clique em **"Carregar sem compactação"** e selecione a pasta onde os arquivos do projeto estão localizados.
 
-## 💡 Como usar
+## Como usar
 
 1. Acesse o [Instagram](https://www.instagram.com) e faça login na sua conta.
 2. Clique no ícone da extensão na sua barra de ferramentas.
 3. A extensão abrirá uma interface integrada (modal) diretamente na página.
 4. Aguarde o carregamento da lista e use os filtros para analisar seus seguidores.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **JavaScript (ES6+)**
 - **Chrome Extension API (Manifest V3)**
 - **CSS3** (Layouts dinâmicos e Blur de backdrop)
 - **SweetAlert2** (Para feedbacks visuais elegantes)
 
-## 📄 Licença
+## Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a **GNU General Public License v3.0**. Consulte o arquivo [LICENÇA](LICENÇA) para obter mais detalhes.
 
 ---
 *Aviso: Este projeto não é afiliado, associado, autorizado, endossado por, ou de qualquer forma oficialmente conectado ao Instagram, Facebook ou Meta Platforms, Inc.*
